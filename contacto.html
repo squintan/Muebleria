@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Durán G.">
+    <title>UAM</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo.jpg" alt="logo" id="logo">
+            <h1>Mueblería Masatepe</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!-- Formulario de contacto -->
+            <h2>Contacto</h2>
+            <div class="contacto">
+                <form action="enviar.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <br>
+                    <label for="correo">Correo:</label>
+                    <input type="email" name="correo" id="correo" required>
+                    <br>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" required></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <!-- barra lateral -->
+        <aside>
+            <h2>Redes Sociales</h2>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank">
+                        Facebook</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mueblería Masatepe</p>
+    </footer>
+</body>
+
+</html>
